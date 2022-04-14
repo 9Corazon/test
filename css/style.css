@@ -1,0 +1,25 @@
+.ul{
+list-style:none;	
+display: flex;
+justify-content: space-between;
+}
+.lk{ 
+text-decoration: none; 
+}
+.ct{ 
+text-align: center;
+}
+
+.bn_b{
+	background-color: #4287f5;
+	border-width: 3px;
+	border-color: #47c940;
+	color: floralwhite;
+	text-align: center;
+	padding: 14px;
+	font-size: 16px;
+	max-width: 100px;
+
+//*класс ul настраивает шапку, делает список, из которого состоит шапка, горизонтальным и убирает точки, 3 и 4
+строчки работают вместе, 4 строчка делает список горизонтальным, без 3 строчки не работает, 2 строчка убирает
+точки. Класс lk убирает оформление ссылок. Класс ct центрует текст*//
