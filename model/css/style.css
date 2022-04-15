@@ -8,13 +8,53 @@ body
 background: rgb(52, 56, 61);
 width: 70%;
 margin: auto;
-min-height: 2000px;
+}
+.div
+{
+margin-top: 200px; 
+}
+.container
+{
 }
 h1
 {
-font-size: 32px;
+font-size: 54px;
 margin-top: 12px;
 color: rgb(255, 255, 255);
+margin-bottom: 40px;
+}
+input[type=text], input[type=password]
+{
+width: 29%;
+padding: 8px;
+display: inline-block;
+border: 2px solid #CC0033;
+box-sizing: border-box;
+margin-bottom: 5px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+outline: none;
+border: none;
+border: solid 1px #f2f2f2;
+}
+button
+{
+margin-top: 8px;
+margin-bottom: 15px;
+text-decoration: none;
+width: 17%;
+background: rgb(0,78,255);
+background: linear-gradient(162deg, rgba(0,78,255,1) 0%, rgba(201,25,25,1) 100%);
+color: white;
+font-size: 32px;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border: 1px solid rgb(255, 255, 255);
+
 }
 h2
 {
@@ -28,22 +68,8 @@ text-align: center;
 {
 text-align: center;
 }
-input[type=text], input[type=password]
-{
-width: 30%;
-padding: 8px;
-margin: 6px 0;
-display: inline-block;
-border: 2px solid #CC0033;
-box-sizing: border-box;
-}
-button
+a
 {
 text-decoration: none;
-width: 30%;
-padding: 8px;
-background-color: #CC0033;
-color: white;
-font-family: Times New Roman;
-font-size: 32px;
+color: rgb(0,155,255);
 }
