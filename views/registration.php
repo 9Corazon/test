@@ -1,5 +1,3 @@
-<?php
-
 require_once '../controllers/database/Connecting-to-database.php';
 
 $name = $_POST['name'];
