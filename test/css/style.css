@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css');
+*{
+	font-family: 'Open Sans', 'sans-serif', 'FontAwesome';
+}
+body
+{
+background: rgb(52, 56, 61);
+width: 70%;
+margin: auto;
+min-height: 2000px;
+}
+h1
+{
+font-size: 54px;
+margin-top: 12px;
+color: rgb(255, 255, 255);
+margin-bottom: 40px;
+}
+input[type=text], input[type=password]
+{
+width: 30%;
+padding: 8px;
+display: inline-block;
+border: 2px solid #CC0033;
+box-sizing: border-box;
+}
+.input-username
+{
+border-top-right-radius: 8px;
+border-top-left-radius: 8px;
+
+}
+.input-password
+{
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+}
+button
+{
+text-decoration: none;
+width: 30%;
+padding: 8px;
+background-color: #CC0033;
+color: white;
+font-family: Times New Roman;
+font-size: 32px;
+}
+h2
+{
+color: white;
+}
+.text-center-h
+{
+text-align: center;	
+}
+.input
+{
+text-align: center;
+}
+a
+{
+text-decoration: none;
+color: rgb(0,155,255);
+}
