@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../model/css/reset.css">
-	<link rel="stylesheet" href="../model/css/style.css">
+	<link rel="stylesheet" href="../model/css/style_login.css">
 	<title>Login</title>
 </head>
 <body>
