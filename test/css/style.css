@@ -8,7 +8,13 @@ body
 background: rgb(52, 56, 61);
 width: 70%;
 margin: auto;
-min-height: 2000px;
+}
+.div
+{
+margin-top: 200px; 
+}
+.container
+{
 }
 h1
 {
@@ -19,32 +25,36 @@ margin-bottom: 40px;
 }
 input[type=text], input[type=password]
 {
-width: 30%;
+width: 29%;
 padding: 8px;
 display: inline-block;
 border: 2px solid #CC0033;
 box-sizing: border-box;
-}
-.input-username
-{
-border-top-right-radius: 8px;
+margin-bottom: 5px;
 border-top-left-radius: 8px;
-
-}
-.input-password
-{
+border-top-right-radius: 8px;
 border-bottom-right-radius: 8px;
 border-bottom-left-radius: 8px;
+outline: none;
+border: none;
+border: solid 1px #f2f2f2;
 }
 button
 {
+margin-top: 8px;
+margin-bottom: 15px;
 text-decoration: none;
-width: 30%;
+width: 17%;
 padding: 8px;
 background-color: #CC0033;
 color: white;
 font-family: Times New Roman;
 font-size: 32px;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-color: #CC0033;
 }
 h2
 {
